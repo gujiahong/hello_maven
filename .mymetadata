@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="HelloMaven"
+  name="hello_maven"
   id="myeclipse.1433250795818"
   context-root="/mama"
   j2ee-spec="6.0"
-  archive="HelloMaven.war">
+  archive="hello_maven.war">
   <attributes>
     <attribute name="webrootdir" value="src/main/webapp" />
   </attributes>

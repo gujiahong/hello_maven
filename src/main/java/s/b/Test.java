@@ -9,12 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class Test extends HttpServlet {
 
-	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -6704704709301346456L;
-
 
 	public void destroy() {
 		super.destroy(); // Just puts "destroy" string in log
@@ -25,7 +20,7 @@ public class Test extends HttpServlet {
 			throws ServletException, IOException {
 		String str = request.getParameter("str");
 		response.getWriter().print("yyyyy: " +  str);
-		return ;
+		return;
 	}
 
 	
@@ -33,7 +28,6 @@ public class Test extends HttpServlet {
 			throws ServletException, IOException {
 
 	}
-
 	
 	public void init() throws ServletException {
 		// Put your code here
