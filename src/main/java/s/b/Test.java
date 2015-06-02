@@ -20,7 +20,7 @@ public class Test extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String str = request.getParameter("str");
-		response.getWriter().print("yyyyy: " +  str);
+		response.getWriter().print(" the params is : " +  str);
 		return;
 	}
 
